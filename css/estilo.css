@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(208, 227, 245);
+    font-family: 'Times New Roman', Times, serif;
+
+
+}
+ /* seletor de classe */
+ .central{
+   text-align: center; 
+ }
+
+ .item-menu{
+    display: inline;
+    margin: 0.4rem;
+    background-color: #a9c7e4;
+    padding: 0.7rem;
+    padding-right: 1rem;
+    border-style: dashed ;
+    border-color: rgb(12, 12, 143)
+ }
+
+.item-menu:hover{
+    background-color: beige;
+    color: blueviolet;
+
+}
+ .menu{
+    background-color: aliceblue;
+    padding: 0.7rem;
+
+ }
+
+ td{
+    padding: 0.4rem;
+ }
+ 
