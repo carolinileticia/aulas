@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tags e CSS</title>
+<link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <div class="central">
+        <h1>TAGs e CSS</h1>
+    </div>
+    <div>
+        <nav class="menu">
+            <ul class=" central menu">
+                <li class="item-menu"><a href="#sec1">secção 1 </a></li>
+                <li class="item-menu"><a href="#sec2">secção 2 </a></li>
+                <li class="item-menu"><a href="#sec3">secção 3 </a></li>
+
+
+            </ul>
+        </nav>
+    </div>
+    <div>
+        <section id="sec1">
+            <h2>Tabelas</h2>
+            <table>
+                <tr> <!-- table row (linha da tabela) -->
+                    <th>Nome</th><th>E-mail</th><th>RGM</th>
+                </tr>
+                <tr>
+                    <td>Leticia</td>
+                    <td>leticia.carolini@cs.up.edu.br</td>
+                    <td>15011989</td>
+                </tr>
+                <tr>
+                    <td>luciana</td>
+                    <td>luciana@gmail.com</td>
+                    <td>898989893</td>
+                </tr>
+
+
+            </table>
+
+        </section>
+    </div>
+</body>
+</html>
