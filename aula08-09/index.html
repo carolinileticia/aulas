@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms HTML</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div>
+        <h1>FORMULÁRIOS HTML</h1>
+    </div>
+    <div>
+    <form action="#" method="POST">
+        <Label for="nome">nome</Label>
+        <input id="nome" name="nome" type="text" placeholder="seu nome" placeholder="nome completo" required>
+
+         <label for="email">E-mail</label>
+         <input type="email" id="email" placeholder="email@email.com">
+
+         <label for="periodo">Período</label>
+         <input type="number" name="periodo" id="periodo" max="4" min="1" step="2">
+
+         <label for="senha">Senha</label>
+         <input type="password"  name="senha" id="senha" required maxlength="12" minlength="8">
+
+         <label for="nasc"> Data de nascimento </label>
+         <input type="date" name="nasc" id="nasc">
+
+         <label for="feliz">nivel de satisfação:</label>
+         <input type="range" name="feliz" id="feliz">
+
+         <p>você gosta de estudar?</p>
+         <label for="estuda">sim</label>
+         <input type="radio" name="estuda">
+         <label for="naoestuda" name="nao">não</label>
+         <input type="radio" name="estuda">
+
+         <p>Quais matérias você mais gosta?</p>
+         <label for="alg">algoritimos</label>
+         <input type="checkbox" name="alg">
+        
+
+
+                 
+
+         <input type="submit" value="Salvar">
+
+
+        
+  
+    </form>
+    </div>
+</body>
