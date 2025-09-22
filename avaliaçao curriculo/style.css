@@ -1,0 +1,83 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #fc9bb8;
+  color: hsl(350, 64%, 23%);
+  padding: 10px;
+  background-image: radial-gradient(circle, #ffdde1 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+/* Menu */
+nav {
+  background: #fa58b1;
+  padding: 10px;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+nav a {
+  color: #420225;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav a:hover {
+  color: #ffd700;
+}
+
+/* Cabeçalho */
+header {
+  text-align: center;
+  padding: 20px;
+}
+header h1 {
+  font-size: 2.5em;
+}
+header h2 {
+  font-size: 1.2em;
+  color: #420c37;
+}
+
+/* Seções */
+section {
+  background: #f3b7c9;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 800px;
+  box-shadow: 0 2px 5px rgba(5, 5, 5, 0.1);
+}
+section h3 {
+  margin-bottom: 10px;
+  color: #222;
+}
+section ul {
+  list-style: square inside;
+}
+
+/* Rodapé */
+footer {
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+  background: #ad0562;
+  color: #fff;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
